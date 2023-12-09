@@ -23,6 +23,7 @@ class HomeActivityTest {
         Intents.init()
     }
 
+
     @Test
     fun testAddActivityDisplayedAndVerifyComponent(){
         Espresso.onView(withId(R.id.action_add)).perform(ViewActions.click())
